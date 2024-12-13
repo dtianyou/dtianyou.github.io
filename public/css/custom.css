@@ -1,0 +1,8 @@
+#nav ul li a i.fas.fa-globe {
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+#nav ul li a:hover {
+color: #2bbc8a;
+}

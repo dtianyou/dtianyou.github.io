@@ -1,34 +1,77 @@
-baseURL = "https://patrlean.github.io/cai/"
+baseURL = "https://dtianyou.github.io/"
 languageCode = "en-us"
 title = "Cai's Blog"
 theme = "cactus"
 copyright = "Cai" # cactus will use title if copyright is not set
 # disqusShortname = "example" # Used when comments is enabled. Cactus will use site title if not set
-googleAnalytics = "UA-1234-5"
+# googleAnalytics = "UA-1234-5"
+# canonifyURLs = true
 
 
 # summaryLength = 2
 
 # Main menu which appears below site header.
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
-[[menu.main]]
-name = "Writings"
-url = "/posts"
-weight = 2
+[languages]
+  [languages.zh]
+    languageName = "中文"
+    weight = 1
+    title = "我的博客"
+    contentDir = "content/zh"
+    languageCode = "zh-cn"
+    [languages.zh.params]
+      description = "中文描述..."
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 3
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "My Blog"
+    contentDir = "content/en"
+    languageCode = "en"
+    [languages.en.params]
+      description = "This is Cai's blog. You can see the monthly and yearly posts here."
 
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 4
+  # 分别设置中英文导航菜单
+  [languages.zh.menu]
+    [[languages.zh.menu.main]]
+
+    name = "首页"
+    url = "/zh/"
+    weight = 1
+    [[languages.zh.menu.main]]
+    name = "文章"
+    url = "/zh/posts/"
+    weight = 2
+    [[languages.zh.menu.main]]
+    name = "项目"
+    url = "/zh/projects/"
+    weight = 3
+    [[languages.zh.menu.main]]
+    name = "关于"
+    url = "/zh/about/"
+    weight = 4
+
+  [languages.en.menu]
+    [[languages.en.menu.main]]
+    name = "Home"
+    url = "/en/"
+    weight = 1
+    [[languages.en.menu.main]]
+    name = "Posts"
+    url = "/en/posts/"
+    weight = 2
+    [[languages.en.menu.main]]
+    name = "Projects"
+    url = "/en/projects/"
+    weight = 3
+    [[languages.en.menu.main]]
+    name = "About"
+    url = "/en/about/"
+    weight = 4
+
+
 
 [markup]
   [markup.tableOfContents]
@@ -51,16 +94,16 @@ weight = 4
   colortheme = "white" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
   googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
-  showAllPostsArchive = false # default
+  showAllPostsArchive = true # default
 
   # Home page settings
-  description = "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
+  # description = "This is Cai's blog. You can see the monthly and yearly posts here."
 
   mainSection = "posts" # your main section
   showAllPostsOnHomePage = true # default
   postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
   tagsOverview = true # show tags overview by default.
-  showProjectsList = true # show projects list by default (if projects data file exists).
+  showProjectsList = false # show projects list by default (if projects data file exists).
   projectsUrl = "https://github.com/gohugoio" # title link for projects list
 
   # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
@@ -93,3 +136,4 @@ weight = 4
   [[params.social]]
     name = "email"
     link = "tianyou.2001[at]outlook.com"  # no need for "mailto:" in the head
+
