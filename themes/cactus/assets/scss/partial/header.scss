@@ -84,6 +84,9 @@
   }
 }
 @media screen and (max-width: 480px) {
+  #header {
+    padding: 0 30px;
+  }
   #header #title {
     display: table;
     margin-right: 5rem;
