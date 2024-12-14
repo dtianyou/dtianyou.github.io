@@ -1,28 +1,27 @@
 +++
 date = '2024-12-01T20:31:04-05:00'
 draft = false
-title = 'November monthly - Third month in the US'
+title = 'November monthly - Cooking adventures and end of semester'
 lang = 'en'
 type = "post"
 tags = ['monthly']
 translationKey = '202411monthly'
 +++
 
-## 第三个月
+## Third Month
 
+November marks my third month in the US. Time flies.
 
-十一月，来到美国已经三个月。时间过得很快。
+It feels like I haven't accomplished much - still stumbling with spoken English, and job hunting hasn't even made it to my agenda yet.
 
-好像自己一事无成，英语口语还是磕磕绊绊，找工作一直没提上日程。
-
-这个月尝试了很多南方菜系，干蒸牛腱，三杯鸡，烤土豆，麻辣烤鱼，清蒸鲈鱼，烤羊排，希望下个月也能对烹饪充满热情。
-
----
-
-少了一点目的，每天过的很随机，课程安排什么assignment就完成干什么assignment。自己没有确定目前的goal是什么？找工？for phd？
+This month I experimented with many Southern Chinese dishes: steamed beef shank, three-cup chicken, roasted potatoes, spicy grilled fish, steamed sea bass, and grilled lamb chops. Hope I can maintain this enthusiasm for cooking next month too.
 
 ---
 
-再次立下flag，每月结束在一周内开始月记。每个月定下一个主题，like 随机咖啡店主题月，MLE 创意网页产品主题月等等。
+I've been lacking direction, living day by day, just completing whatever assignments come up in courses. Haven't really figured out my current goal - job hunting? pursuing a PhD?
 
-给12月的主题 - 南美+ MLE找工 
+## Resolutions
+
+Making another resolution to start monthly reflections within a week of month's end. Plan to set a theme for each month, like random coffee shop exploration month, or MLE creative web product month, etc.
+
+Theme for December - South America + MLE job hunting

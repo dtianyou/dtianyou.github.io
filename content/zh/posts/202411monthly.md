@@ -21,7 +21,7 @@ translationKey = '202411monthly'
 
 少了一点目的，每天过的很随机，课程安排什么assignment就完成干什么assignment。自己没有确定目前的goal是什么？找工？for phd？
 
----
+## Flag
 
 再次立下flag，每月结束在一周内开始月记。每个月定下一个主题，like 随机咖啡店主题月，MLE 创意网页产品主题月等等。
 

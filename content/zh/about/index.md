@@ -5,4 +5,7 @@ title = 'Index'
 translationKey = 'about'
 +++
 
-你好，这里是cai
+嗨↑嗨↓嗨~，这里是Cai的博客。
+
+这里会随便记记每个月的monthly post，以及一些ai相关项目。
+

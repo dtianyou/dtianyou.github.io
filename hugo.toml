@@ -22,8 +22,8 @@ defaultContentLanguageInSubdir = true
     contentDir = "content/zh"
     languageCode = "zh-cn"
     [languages.zh.params]
-      description = "中文描述..."
-
+      description = "嗨↑嗨↓嗨~，这里是Cai的博客。这里会随便记记每个月的monthly post，以及一些ai相关项目。"
+      
   [languages.en]
     languageName = "English"
     weight = 2
@@ -31,7 +31,7 @@ defaultContentLanguageInSubdir = true
     contentDir = "content/en"
     languageCode = "en"
     [languages.en.params]
-      description = "This is Cai's blog. You can see the monthly and yearly posts here."
+      description = "Hi it's Cai. I'm a graduate student at Georgia Tech. I'm interested in the application of AI and LLMs in the real world. I will post my monthly thoughts and some ai projects here."
 
   # 分别设置中英文导航菜单
   [languages.zh.menu]
