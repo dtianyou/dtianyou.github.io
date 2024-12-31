@@ -56,6 +56,16 @@
   </url><url>
     <loc>http://localhost:1313/en/posts/202411monthly/</loc>
     <lastmod>2024-12-01T20:31:04-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="http://localhost:1313/zh/posts/202411monthly/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/posts/202411monthly/"
+                />
   </url><url>
     <loc>http://localhost:1313/en/posts/</loc>
     <lastmod>2024-12-01T20:31:04-05:00</lastmod>

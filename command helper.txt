@@ -1,0 +1,7 @@
+## 启动服务器
+
+hugo server
+
+## 新建文章
+
+hugo new posts/202412monthly.md
