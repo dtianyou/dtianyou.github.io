@@ -1,7 +1,7 @@
 +++
 date = '2024-12-31T17:08:55-05:00'
 draft = false
-title = '2024yearly - Evacuation From 2024'
+title = '2024 yearly - Evacuation From 2024'
 lang = 'en'
 type = "post"
 tags = ['yearly']

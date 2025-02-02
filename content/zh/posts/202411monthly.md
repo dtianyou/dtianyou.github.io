@@ -1,7 +1,7 @@
 +++
 date = '2024-12-01T20:31:04-05:00'
 draft = false
-title = '十一月monthly - 做了很多菜和学期结束月'
+title = '十一月 24monthly - 做了很多菜和学期结束月'
 lang = 'zh'
 type = "post"
 tags = ['monthly']
