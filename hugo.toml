@@ -113,9 +113,22 @@ defaultContentLanguageInSubdir = true
   show_updated = true # default
   showReadTime = true # default
 
+    # Valine.
+  # You can get your appid and appkey from https://leancloud.cn
+  # more info please open https://valine.js.org
+  [params.valine]
+    enable = true
+    appId = 'vGRxSDS0GWkLGWPGOPoTxMSF-MdYXbMMI'
+    appKey = 'vpIG2kXbg25JR5sdSek4DjkE'
+    notify = true  # mail notifier , https://github.com/xCss/Valine/wiki
+    verify = false # Verification code
+    avatar = 'mm' 
+    placeholder = 'hi~'
+    visitor = true
+
   [params.comments]
     enabled = true # default
-    engine = "cactus_comments" # only disqus, utterances, and cactus_comments is supported
+    Engine = "valine" # only disqus, utterances, and cactus_comments is supported
     [params.comments.utterances]
       repo = "<github_username>/<github_reponame>"
       label = "hugo-site-name" # you can use however you want to label your name in your repo's issues
