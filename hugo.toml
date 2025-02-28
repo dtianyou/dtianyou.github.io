@@ -71,8 +71,6 @@ defaultContentLanguageInSubdir = true
     url = "/en/about/"
     weight = 4
 
-
-
 [markup]
   [markup.tableOfContents]
     endLevel = 4
