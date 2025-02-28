@@ -1,7 +1,7 @@
 +++
 date = '2025-02-01T23:52:31-05:00'
 draft = false
-title = '一月 25monthly- 开学和计划成为MLE'
+title = '01.25 - 开学和计划成为MLE'
 lang = 'zh'
 type = "post"
 tags = ['monthly']

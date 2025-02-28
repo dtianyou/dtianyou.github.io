@@ -1,7 +1,7 @@
 +++
 date = '2024-10-30T22:14:38-05:00'
 draft = false
-title = '十月  24monthly - 写在美国大选后'
+title = '10.24 - 写在美国大选后'
 lang = 'zh'
 type = "post"
 tags = ['monthly']

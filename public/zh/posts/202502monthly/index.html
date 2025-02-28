@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/font-awesome/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/lib/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+  <script type="text/javascript" src="https://latest.cactus.chat/cactus.js"></script>
+  <link rel="stylesheet" href="https://latest.cactus.chat/style.css" type="text/css">
+  
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> 02.25 - 念头是现实的二阶导数 | 我的博客</title>
+  <link rel = 'canonical' href = 'http://localhost:1313/zh/posts/202502monthly/'>
+  <meta name="description" content="嗨↑嗨↓嗨~，这里是Cai的博客。这里会随便记记每个月的monthly post，以及一些ai相关项目。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <meta name="googlebot" content="index,follow,snippet,archive">
+  <meta property="og:url" content="http://localhost:1313/zh/posts/202502monthly/">
+  <meta property="og:site_name" content="我的博客">
+  <meta property="og:title" content="02.25 - 念头是现实的二阶导数">
+  <meta property="og:description" content="好风好运 偶然点开B站收藏夹，看到好多几年前收藏的视频
+第一个收藏是13分钟教会你素组高达 哈哈哈
+互联网死去的记忆开始攻击我
+很多up主的最后一条动态停留在24年
+有的up主已经注销但是视频还能观看
+有的up主从吃播转型到带货，从学习区跨界到汽车区
+一直抓住夏天的巫托邦但没撑到24年夏天，
+基基吃完炸牛肉三明治从半年更消失，
+冬狼的主页还是20年恭喜世界上多了一个靠谱的成年人
+H2元素实验室还在，按照自然界118种元素，照这样下去每月1更可以更新10年
+在数字世界里
+你的每一条数据会在你的每一个互动、点赞、收藏、评论、转发之间留在某个地方
+可能是B站收藏夹，可能是云相册，也可能是越滚越大的icloud空间和微信存储。
+“2020年全国高考今天举行，受疫情影响，今年的全国高考较往年推迟了一个月”，
+“这也是自2003年以来，首次在7月举行全国高考”
+——谨以这1分36秒来怀念我的高中
+念头是现实的二阶导数 怎么理解这句话？
+我们可以讲你「想要」去做一件事情，于是在「现实」中做了这件事情。
+这个时候「想要」是「现实」的一阶导数，「想要」是导致你做这件事情的原因。
+那又是什么东西影响了你的「想要」呢？
+「想要」的「想要」是什么呢？
+去年十月份认为自己要成为一个digital ic verification engineer，
+因为好找工作，薪资不低，半个专业对口。
+从哥伦比亚回来后，决定转MLE，LLM，
+发现金钱和快乐其实可以弱相关，
+花时间做有意义且有激情的事情，比能挣钱的事情更重要
+因为想用自己有限的时间精力做一些有兴趣的事情
+拉美还真是一个奇幻的地方
+「念头」是想要的想要，是你转变过去的行事方式，人生目标的契机
+当你的念头出现的时候，鼓起勇气去！
+因为那个世界才是属于你的世界！
+只问敢勇不问西东！
+当然，也不是说我想要=我能成，还需要下去好好沉淀沉淀，
+而你我的朋友，你的选择决定了你会成为什么样的人
+三天不练，手生 六年级语文老师的金句含金量还在提升。
+最近在leetcode上刷题，有次隔了一天没做题，手有点生。
+最近知道了绣川书院，二爷说当年流沙河上课，老师走进教室，拿着一炷香，躬身施礼，
+向下面学生道，我是带香而来，希望诸君多多上课努力，不要辜负美好时光。
+想起第一次去石室文庙，看着门口两只大狮子和古式校门想哭，
+进去门口一块大石头刻着，古今一校，扬辉千秋，
+抬头是两栋古代阁楼式的青灰色教学楼，
+远处成都府文庙还伫立在校园旧址，
+一瞬间差点被击穿，好像这里才是学生该来的地方。
+一些feel excited的瞬间 在pace-ice上同时运行8张h100，这学费值回来了。
+这周VIP课程教授说，我们要做一些从来没有人做过的东西，不要等其他学校都用上了再说我们也要用，这件事情没有风险，即使失败，只要我们不说，谁也不知道。
+试图追上AI新技术的我 → 🤯
+每天都有新技术新知识产生，旧账没算完新账来了。
+一些低效率的meeting 如果你不说，别人会说。
+通常说的是一些bullshit
+你要多说，多push团队">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-02-27T22:31:49-05:00">
+    <meta property="article:modified_time" content="2025-02-27T22:31:49-05:00">
+    <meta property="article:tag" content="Monthly">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="02.25 - 念头是现实的二阶导数">
+  <meta name="twitter:description" content="好风好运 偶然点开B站收藏夹，看到好多几年前收藏的视频
+第一个收藏是13分钟教会你素组高达 哈哈哈
+互联网死去的记忆开始攻击我
+很多up主的最后一条动态停留在24年
+有的up主已经注销但是视频还能观看
+有的up主从吃播转型到带货，从学习区跨界到汽车区
+一直抓住夏天的巫托邦但没撑到24年夏天，
+基基吃完炸牛肉三明治从半年更消失，
+冬狼的主页还是20年恭喜世界上多了一个靠谱的成年人
+H2元素实验室还在，按照自然界118种元素，照这样下去每月1更可以更新10年
+在数字世界里
+你的每一条数据会在你的每一个互动、点赞、收藏、评论、转发之间留在某个地方
+可能是B站收藏夹，可能是云相册，也可能是越滚越大的icloud空间和微信存储。
+“2020年全国高考今天举行，受疫情影响，今年的全国高考较往年推迟了一个月”，
+“这也是自2003年以来，首次在7月举行全国高考”
+——谨以这1分36秒来怀念我的高中
+念头是现实的二阶导数 怎么理解这句话？
+我们可以讲你「想要」去做一件事情，于是在「现实」中做了这件事情。
+这个时候「想要」是「现实」的一阶导数，「想要」是导致你做这件事情的原因。
+那又是什么东西影响了你的「想要」呢？
+「想要」的「想要」是什么呢？
+去年十月份认为自己要成为一个digital ic verification engineer，
+因为好找工作，薪资不低，半个专业对口。
+从哥伦比亚回来后，决定转MLE，LLM，
+发现金钱和快乐其实可以弱相关，
+花时间做有意义且有激情的事情，比能挣钱的事情更重要
+因为想用自己有限的时间精力做一些有兴趣的事情
+拉美还真是一个奇幻的地方
+「念头」是想要的想要，是你转变过去的行事方式，人生目标的契机
+当你的念头出现的时候，鼓起勇气去！
+因为那个世界才是属于你的世界！
+只问敢勇不问西东！
+当然，也不是说我想要=我能成，还需要下去好好沉淀沉淀，
+而你我的朋友，你的选择决定了你会成为什么样的人
+三天不练，手生 六年级语文老师的金句含金量还在提升。
+最近在leetcode上刷题，有次隔了一天没做题，手有点生。
+最近知道了绣川书院，二爷说当年流沙河上课，老师走进教室，拿着一炷香，躬身施礼，
+向下面学生道，我是带香而来，希望诸君多多上课努力，不要辜负美好时光。
+想起第一次去石室文庙，看着门口两只大狮子和古式校门想哭，
+进去门口一块大石头刻着，古今一校，扬辉千秋，
+抬头是两栋古代阁楼式的青灰色教学楼，
+远处成都府文庙还伫立在校园旧址，
+一瞬间差点被击穿，好像这里才是学生该来的地方。
+一些feel excited的瞬间 在pace-ice上同时运行8张h100，这学费值回来了。
+这周VIP课程教授说，我们要做一些从来没有人做过的东西，不要等其他学校都用上了再说我们也要用，这件事情没有风险，即使失败，只要我们不说，谁也不知道。
+试图追上AI新技术的我 → 🤯
+每天都有新技术新知识产生，旧账没算完新账来了。
+一些低效率的meeting 如果你不说，别人会说。
+通常说的是一些bullshit
+你要多说，多push团队">
+
+  
+  
+    
+  
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/styles.ade86f494255fecf66bf7c4b57349fb1bc6e3d7bc89f13bb5b815da7d412fa2b03e1bf730ceb8f2905570b5f375dd6b21e28b02a39309f0c8abfdfb151f9b511.css" integrity="sha512-rehvSUJV/s9mv3xLVzSfsbxuPXvInxO7W4Fdp9QS&#43;isD4b9zDOuPKQVXC183XdayHiiwKjkwnwyKv9&#43;xUfm1EQ=="> 
+
+  
+  
+  
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+  
+<link rel="icon" type="image/png" href="http://localhost:1313/images/favicon.ico" />
+
+  
+  
+  
+
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+  <div class="content index py4">
+
+    <header id="header">
+  <a href="http://localhost:1313/">
+  
+    <div id="logo" style="background-image: url(http://localhost:1313/images/logo.png)"></div>
+  
+  <div id="title">
+    <h1>我的博客</h1>
+  </div>
+  </a>
+  <div id="nav">
+    <ul>
+      <li class="icon">
+        <a href="#" aria-label="Menu"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></a>
+      </li>
+      
+        <li><a href="/zh/">首页</a></li>
+      
+        <li><a href="/zh/posts/">文章</a></li>
+      
+        <li><a href="/zh/projects/">项目</a></li>
+      
+        <li><a href="/zh/about/">关于</a></li>
+      
+      
+        
+          <li><a href="http://localhost:1313//en/posts/202502monthly/"><i class="fas fa-globe"></i> English</a></li>
+        
+      
+    </ul>
+  </div>
+</header>
+
+
+
+    
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="content" itemprop="articleBody">
+  
+    <h2 id="好风好运">好风好运</h2>
+<hr>
+<p>偶然点开B站收藏夹，看到好多几年前收藏的视频</p>
+<p>第一个收藏是13分钟教会你素组高达 哈哈哈</p>
+<p>互联网死去的记忆开始攻击我</p>
+<hr>
+<p>很多up主的最后一条动态停留在24年</p>
+<p>有的up主已经注销但是视频还能观看</p>
+<p>有的up主从吃播转型到带货，从学习区跨界到汽车区</p>
+<p>一直抓住夏天的巫托邦但没撑到24年夏天，</p>
+<p>基基吃完炸牛肉三明治从半年更消失，</p>
+<p>冬狼的主页还是20年恭喜世界上多了一个靠谱的成年人</p>
+<p>H2元素实验室还在，按照自然界118种元素，照这样下去每月1更可以更新10年</p>
+<p>在数字世界里</p>
+<p>你的每一条数据会在你的每一个互动、点赞、收藏、评论、转发之间留在某个地方</p>
+<p>可能是B站收藏夹，可能是云相册，也可能是越滚越大的icloud空间和微信存储。</p>
+<hr>
+<p>“2020年全国高考今天举行，受疫情影响，今年的全国高考较往年推迟了一个月”，</p>
+<p>“这也是自2003年以来，首次在7月举行全国高考”</p>
+<p>——谨以这1分36秒来怀念我的高中</p>
+<hr>
+<h2 id="念头是现实的二阶导数">念头是现实的二阶导数</h2>
+<p>怎么理解这句话？</p>
+<p>我们可以讲你「想要」去做一件事情，于是在「现实」中做了这件事情。</p>
+<p>这个时候「想要」是「现实」的一阶导数，「想要」是导致你做这件事情的原因。</p>
+<p>那又是什么东西影响了你的「想要」呢？</p>
+<p>「想要」的「想要」是什么呢？</p>
+<hr>
+<p>去年十月份认为自己要成为一个digital ic verification engineer，</p>
+<p>因为好找工作，薪资不低，半个专业对口。</p>
+<p>从哥伦比亚回来后，决定转MLE，LLM，</p>
+<p>发现金钱和快乐其实可以弱相关，</p>
+<p>花时间做有意义且有激情的事情，比能挣钱的事情更重要</p>
+<p>因为想用自己有限的时间精力做一些有兴趣的事情</p>
+<p>拉美还真是一个奇幻的地方</p>
+<hr>
+<p>「念头」是想要的想要，是你转变过去的行事方式，人生目标的契机</p>
+<p>当你的念头出现的时候，鼓起勇气去！</p>
+<p>因为那个世界才是属于你的世界！</p>
+<p>只问敢勇不问西东！</p>
+<p>当然，也不是说我想要=我能成，还需要下去好好沉淀沉淀，</p>
+<p>而你我的朋友，你的选择决定了你会成为什么样的人</p>
+<hr>
+<h2 id="三天不练手生">三天不练，手生</h2>
+<p>六年级语文老师的金句含金量还在提升。</p>
+<p>最近在leetcode上刷题，有次隔了一天没做题，手有点生。</p>
+<p>最近知道了绣川书院，二爷说当年流沙河上课，老师走进教室，拿着一炷香，躬身施礼，</p>
+<p>向下面学生道，我是带香而来，希望诸君多多上课努力，不要辜负美好时光。</p>
+<p>想起第一次去石室文庙，看着门口两只大狮子和古式校门想哭，</p>
+<p>进去门口一块大石头刻着，古今一校，扬辉千秋，</p>
+<p>抬头是两栋古代阁楼式的青灰色教学楼，</p>
+<p>远处成都府文庙还伫立在校园旧址，</p>
+<p>一瞬间差点被击穿，好像这里才是学生该来的地方。</p>
+<hr>
+<h2 id="一些feel-excited的瞬间">一些feel excited的瞬间</h2>
+<p>在pace-ice上同时运行8张h100，这学费值回来了。</p>
+<p>这周VIP课程教授说，我们要做一些从来没有人做过的东西，不要等其他学校都用上了再说我们也要用，这件事情没有风险，即使失败，只要我们不说，谁也不知道。</p>
+<p>试图追上AI新技术的我 → 🤯</p>
+<p>每天都有新技术新知识产生，旧账没算完新账来了。</p>
+<hr>
+<h2 id="一些低效率的meeting">一些低效率的meeting</h2>
+<p>如果你不说，别人会说。</p>
+<p>通常说的是一些bullshit</p>
+<p>你要多说，多push团队</p>
+
+  
+  </div>
+</article>
+
+
+    <footer id="footer">
+  <div class="footer-left">
+    Copyright  &copy; 2025  Cai 
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+        <li><a href="/zh/">首页</a></li>
+         
+        <li><a href="/zh/posts/">文章</a></li>
+         
+        <li><a href="/zh/projects/">项目</a></li>
+         
+        <li><a href="/zh/about/">关于</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+
+  </div>
+</body>
+
+<link rel="stylesheet" href=/lib/font-awesome/css/all.min.css>
+<script src=/lib/jquery/jquery.min.js></script>
+<script src=/js/main.js></script>
+</html>

@@ -1,7 +1,7 @@
 +++
 date = '2024-12-31T16:59:58-05:00'
 draft = false
-title = '十二月 24monthly - 漫长的冬季假期 and solo 拉丁美洲'
+title = '12.24 - 漫长的冬季假期 and solo 拉丁美洲'
 lang = 'zh'
 type = "post"
 tags = ['monthly']

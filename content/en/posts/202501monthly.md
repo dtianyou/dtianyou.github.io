@@ -1,7 +1,7 @@
 +++
 date = '2025-02-01T23:52:31-05:00'
 draft = false
-title = 'Jan 25 monthly'
+title = 'Jan 25 - New Semester & The Plan to Become an MLE'
 lang = 'en'
 type = "post"
 tags = ['monthly']

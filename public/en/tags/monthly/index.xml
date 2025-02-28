@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Cai</copyright>
-    <lastBuildDate>Tue, 31 Dec 2024 16:59:58 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2025 23:52:31 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/en/tags/monthly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jan 25 monthly</title>
+      <link>http://localhost:1313/en/posts/202501monthly/</link>
+      <pubDate>Sat, 01 Feb 2025 23:52:31 -0500</pubDate>
+      <guid>http://localhost:1313/en/posts/202501monthly/</guid>
+      <description>&lt;h2 id=&#34;starting-school&#34;&gt;Starting School&lt;/h2&gt;&#xA;&lt;p&gt;The spring semester feels much more relaxed compared to when I first arrived in the United States during the fall. Attending classes, listening to lectures, doing homework, and taking exams have all become routine.&lt;/p&gt;&#xA;&lt;p&gt;However, course registration remains as competitive as ever—there are always more students than available classes, and the waitlists for popular courses are incredibly tight. For example, I ended up on the waitlist for a graduate course; on top of that, I’m taking 8803 Hardware Software Codesign, 6133 Physical Design Automation, Computer Architecture, and a VIP course on Responsible AI.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dec 24 monthly - Long December and Solo Trip to Latino American</title>
       <link>http://localhost:1313/en/posts/202412monthly/</link>

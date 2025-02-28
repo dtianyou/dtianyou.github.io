@@ -1,7 +1,7 @@
 +++
 date = '2024-10-30T22:14:38-05:00'
 draft = false
-title = 'Oct monthly - After the US election'
+title = 'Oct 24 - After the US election'
 lang = 'en'
 type = "post"
 tags = ['monthly']

@@ -1,7 +1,7 @@
 +++
 date = '2024-12-31T17:08:55-05:00'
 draft = false
-title = '2024年报 - 从2024安全撤离'
+title = '2024 - 从2024安全撤离'
 lang = 'zh'
 type = "post"
 tags = ['yearly']

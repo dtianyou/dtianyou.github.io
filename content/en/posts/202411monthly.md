@@ -1,7 +1,7 @@
 +++
 date = '2024-12-01T20:31:04-05:00'
 draft = false
-title = 'Nov 24 monthly - Cooking adventures and end of semester'
+title = 'Nov 24 - Cooking adventures and end of semester'
 lang = 'en'
 type = "post"
 tags = ['monthly']
